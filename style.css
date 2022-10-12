@@ -193,14 +193,34 @@ button:hover{
 	color: #f21120;
 }
 h5{
-	font-size: 23px;
+	font-size: 30px;
 	margin-bottom: 15px;
+	margin-right: 50px;
+	font-weight: 500;
+	cursor: pointer;
+	position: relative;
+	left: 30px;
 
+}
+h5::after{
+	content: '';
+	width: 00%;
+	height: 7px;
+	background: #ff004f;
+	position: absolute;
+	left: 0;
+	bottom: -8px;
+	transition: 0.5s;
+
+}
+h5:hover::after{
+	width: 100%;
 }
 .pra p{
 	font-size: 16px;
 	line-height: 27px;
 	margin-bottom: 25px;
+
 
 }
 .card .button{
@@ -243,7 +263,7 @@ h5{
 	transition: .4s;
 	color: white;
 }
-.contact-me .button-two: hover{
+.contact-me .button-two:hover{
     background-color: white;
 	border: 2px solid black;
 	cursor: pointer;
