@@ -5,8 +5,19 @@
 	font: bold;
 
 }
+.html{
+	color: rgb(252, 248, 248);
+}
 #body{
 	background-color: black;
+}
+.name {
+	font-size: 27px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: cursive;
+	color: white;
+	
 }
 .hero{
 	position: relative;
@@ -34,7 +45,7 @@ nav ul li a {
 	color: rgb(245, 245, 245);
 }
 nav ul li a:hover {
-	color: rgb(82, 242, 14);
+	color: #19770a;
 }
 
 .detel{
@@ -52,7 +63,7 @@ nav ul li a:hover {
 	width: 150px;
 }
 span{
-	color: rgb(27, 249, 11) ;
+	color: #19770a;
 }
 .detel p{
 	color: rgb(248, 239, 239);
@@ -72,7 +83,7 @@ span{
 }
 .detel a:hover{
 	background-color: rgb(186, 142, 142);
-	color: rgb(7, 255, 77);
+	color: #19770a;
 	border: 2px solid black;
 }
 .images{
@@ -138,7 +149,7 @@ footer p:nth-child(2){
 	background-color:#2c2f33 ;
 	border-radius: 50%;
 	margin: 22px 10px;
-	color: rgb(0, 255, 13);
+	color: #19770a;
 	text-decoration: none;
 	font-size: 20px;
 }
@@ -148,9 +159,16 @@ footer p:nth-child(2){
 }
 .end{
 	position: absolute;
-	color: #0cf900;
+	color: #19770a;
 	bottom: 40px;
 	font-size: 14px;
 	font-family: cursive;
 
+}
+.heading{
+	font-size: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: cursive;
 }
