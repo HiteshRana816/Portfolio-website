@@ -46,6 +46,7 @@ nav ul li a {
 }
 nav ul li a:hover {
 	color: #19770a;
+	
 }
 
 .detel{
@@ -82,7 +83,7 @@ span{
 
 }
 .detel a:hover{
-	background-color: rgb(186, 142, 142);
+	background-color: rgb(51, 49, 49);
 	color: #19770a;
 	border: 2px solid black;
 }
@@ -171,4 +172,10 @@ footer p:nth-child(2){
 	align-items: center;
 	justify-content: center;
 	font-family: cursive;
+	letter-spacing: 0.5rem;
+	
+}
+.heading:hover{
+	transform: scale(1.3);
+     transition: .5s;
 }
