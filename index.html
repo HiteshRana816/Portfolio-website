@@ -1,56 +1,384 @@
 <!DOCTYPE html>
-<html lang="en" class="html">  
-	<head >
-		<title>Personal Portfolio website</title>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" contant="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	</head>
-	<body id="body">
-		<!------home section start---->
-		<div class= "hero">
-			<nav>
-				<div>
-				
-				<p class="name">Hitesh <span style="color: #19770a;font-family: cursive;">Rana</span></p>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hitesh Rana Portfolio</title>
+</head>
+<body>
+<div class="websiteContainer">
+	
+	<section class="homeSection" id="sectionHome">
+	
+		<nav class="primaryMenu">
+			
+			<div class="logo">
+				<a href="#">Hitesh</a>
 			</div>
-				<ul>
-					 <li><a href="index.html">HOME</a></li>               
-                     <li><a href="about.html">ABOUT </a></li>     
-                     <li><a href="services.html">SERVICES </a></li>   
-					 <li><a href="contact.html">Contact ME</a></li>
-				</ul>
-			</nav>
 
-			<div class="detel">
-				<h1>I,m Hitesh<span> Rana</span></h1>
-				<p>This is my official Portfolio website to showes all
-                 <br/>Details and work frontend web developement
-				</p>
-				<a href="#" class="cv"> DOWNLOAD CV </a>
+			<ul>
+				<li><a href="#sectionHome">Home</a></li>
+				<li><a href="#sectionAbout">About</a></li>
+				<li><a href="#sectionServices">Services</a></li>
+				<li><a href="#sectionResume">Resume</a></li>
+				<li><a href="#sectionPortfolio">Works</a></li>
+				<li><a href="#sectionContact">Contact</a></li>
+			</ul>
+
+			<div id="primaryMenuBtn">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+			</div>
+
+		</nav>
+		
+
+		<main class="homeBody">
+			
+			<div class="homeInfoText">
+				<p>Hello! My Name is</p>
+				<h1><span>Hitesh</span><span>Rana</span></h1>
+				<p> A Frontend Developer</p>
+				<button>Download CV</button>
+				<div class="homeSocialMedia">
+					<a href="https://www.facebook.com/gaamaala.jaat.1"><i class="fa-brands fa-facebook-f"></i></a>
+					<a href="https://github.com/HiteshRana816"><i class="fa-brands fa-github"></i></a>
+					<a href="https://instagram.com/ranashabh168?igshid=YmMyMTA2M2Y"><i class="fa-brands fa-instagram"></i></a>
+					<a href="https://www.linkedin.com/in/hitesh-rana-a29484258/"><i class="fa-brands fa-linkedin"></i></a>
+				</div>
 			</div>
 			<div class= "images">
 				<img src= "images/1.png" class="shape">
 				<img src="images/8.png" class="boy">
 
+		</div>
+
+		</main>
+
+	</section>
+
+	<section class="aboutSection" id="sectionAbout">
+		<div class="aboutContents">
+	
+			<div class="aboutImage">
+				<img src="images/about.webp">
+			</div>
+
+			<div class="aboutInfo">
+				<h1>About Me</h1>
+				<h2>Professional Web Developer have good experience</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<div class="aboutPersonalInfo">
+					<div><span>Name:</span><span>Hitesh Rana</span></div>
+					<div><span>Age:</span><span>23 Years</span></div>
+					<div><span>Email:</span><span>hiteshrana11511@gmail.com</span></div>
+					<div><span>Address:</span><span>New Delhi,India</span></div>
+				</div>
+				<div class="button">
+					<button>Download CV</button>
+				</div>
+			</div>
+
+<div class="aboutSkills">
+	
+<div class="skill">
+	<div class="subject">HTML</div>
+	<div class="progress_bar">
+		<div class="progress_line" value="93%" style="max-width: 93%"></div>
+	</div>
+</div>
+
+<div class="skill">
+	<div class="subject">CSS</div>
+	<div class="progress_bar">
+		<div class="progress_line" value="76%" style="max-width: 76%"></div>
+	</div>
+</div>
+
+<div class="skill">
+	<div class="subject">Javascript</div>
+	<div class="progress_bar">
+		<div class="progress_line" value="74%" style="max-width: 74%"></div>
+	</div>
+</div>
+
+<div class="skill">
+	<div class="subject">Js Query</div>
+	<div class="progress_bar">
+		<div class="progress_line" value="86%" style="max-width: 86%"></div>
+	</div>
+</div>
+
+</div>
 
 		</div>
+	</section>
+
+	<section class="servicesSection" id="sectionServices">
 		
-		<!-------footer start----->
-		<footer>
-		<p>Hitesh Rana</p>
-		<div class="social">
-			<a href="https://www.facebook.com/gaamaala.jaat.1"><i class="fa-brands fa-facebook"></i></a>
-			<a href="https://instagram.com/ranashabh168?igshid=YmMyMTA2M2Y"><i class="fa-brands fa-instagram"></i></a>
-			<a href="https://github.com/HiteshRana816"><i class="fa-brands fa-github"></i></a>
-			<a href="https://www.linkedin.com/in/hitesh-rana-a29484258/"><i class="fa-brands fa-linkedin"></i></a>
+		<div class="serviceTitle">
+			<h1>My Services</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 		</div>
-		<p class="end">Copyright by Hitesh Rana</p>
-	</footer>
-	<script src="script.js">
 
-    </script>
-	</body>
-	</html>
+		<div class="serviceContents">
+			
+			<div class="serviceBox">
+				<i class="fa-solid fa-palette"></i>
+				<h2>Web Design</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+
+			<div class="serviceBox">
+				<i class="fa-solid fa-laptop-code"></i>
+				<h2>Web Development</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+
+			<div class="serviceBox">
+				<i class="fa-solid fa-camera-retro"></i>
+				<h2>Photography</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+
+			<div class="serviceBox">
+				<i class="fa-solid fa-broom-ball"></i>
+				<h2>Logo Design</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+
+			<div class="serviceBox">
+				<i class="fa-solid fa-mobile-screen"></i>
+				<h2>App Design</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+
+			<div class="serviceBox">
+				<i class="fa-sharp fa-solid fa-wand-magic-sparkles"></i>
+				<h2>Photo Editing</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+
+
+		</div>
+
+	</section>
+
+	<section class="resumeSection" id="sectionResume">
+		
+		<header class="resumeTitle">
+			<h1>Resume</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		</header>
+
+		<main class="resumeContentsRow">
+		
+			<div class="resumeEvenColumn">
+				
+				<div class="subTitle">
+					<h3>Education</h3>
+				</div>
+
+				<div class="resumeContents">
+				
+
+					<div class="box">
+						<h4>2017 - 2021</h4>
+						<h3>Bachelor's Degree</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					</div>
+
+
+				</div>
+
+			</div>
+
+			<div class="resumeEvenColumn">
+				
+				<div class="subTitle">
+					<h3>Experience</h3>
+				</div>
+
+				<div class="resumeContents">
+					
+					<div class="box">
+						<h4>Feb 2022 - Present</h4>
+						<h3>Feb 2022 - Present</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					</div>
+
+					
+
+				</div>
+
+			</div>
+
+		</main>
+
+	</section>
+
+	<section class="portfolioSection" id="sectionPortfolio">
+		
+		<header class="portfolioTitle">
+			<h1>My Works</h1>
+		</header>
+
+		<main class="portfolioContents">
+		
+			<div class="portfolioBtns">
+				<ul>
+					<li class="btn active" data-filter="all">All Work</li>
+					<li class="btn" data-filter="development">Website</li>
+					<li class="btn" data-filter="logo">Project</li>
+				</ul>
+			</div>
+
+			<div class="portfolioGallery">
+				
+				
+
+				<div class="card" data-item="development">
+					<div class="imgBox">
+						<img src="images/sunday.png">
+					</div>
+				</div>
+
+				<div class="card" data-item="development">
+					<div class="imgBox">
+						<img src="images/pharma.png">
+					</div>
+				</div>
+
+				
+				<div class="card" data-item="logo">
+					<div class="imgBox">
+						<img src="images/Hairstyle.png">
+					</div>
+				</div>
+
+				<div class="card" data-item="logo">
+					<div class="imgBox">
+						<img src="images/timer.png">
+					</div>
+				</div>
+
+
+
+			</div>
+
+		</main>
+
+		<div class="portfolioPopupBox">
+			<span>&times;</span>
+			<img src="Images/design1.jpg">
+		</div>
+
+	</section>
+
+	<section class="contactSection" id="sectionContact">
+		
+		<main class="contactContentsRow">
+
+			<div class="even-column contactDetails">
+				
+				<div class="contactTitle">
+					<h2>Get In Touch</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+				</div>
+
+				<div class="contactInfo">
+					
+					<div class="iconGroup">
+						<div class="icon">
+							<i class="fa-solid fa-phone"></i>
+						</div>
+						<div class="details">
+							<span>Phone</span>
+							<span>+91 8396053254</span>
+						</div>
+					</div>
+
+					<div class="iconGroup">
+						<div class="icon">
+							<i class="fa-solid fa-envelope"></i>
+						</div>
+						<div class="details">
+							<span>Email</span>
+							<span>hiteshrana11511@gmail.com</span>
+						</div>
+					</div>
+
+					<div class="iconGroup">
+						<div class="icon">
+							<i class="fa-solid fa-location-dot"></i>
+						</div>
+						<div class="details">
+							<span>Location</span>
+							<span>New Delhi, India</span>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="contactSocialMedia">
+					<a href="https://www.facebook.com/gaamaala.jaat.1"><i class="fa-brands fa-facebook-f"></i></a>
+					<a href="https://github.com/HiteshRana816"><i class="fa-brands fa-github"></i></a>
+					<a href="https://instagram.com/ranashabh168?igshid=YmMyMTA2M2Y"><i class="fa-brands fa-instagram"></i></a>
+					<a href="https://www.linkedin.com/in/hitesh-rana-a29484258/"><i class="fa-brands fa-linkedin"></i></a>
+				</div>
+
+			</div>
+
+			<div class="even-column contactForm">
+				
+				<form class="messageForm">
+					
+					<div class="inputGroup halfWidth">
+						<input type="text" name="" required="required">
+						<label>Your Name</label>
+					</div>
+
+					<div class="inputGroup halfWidth">
+						<input type="email" name="" required="required">
+						<label>Email</label>
+					</div>
+
+					<div class="inputGroup fullWidth">
+						<input type="text" name="" required="required">
+						<label>Subject</label>
+					</div>
+
+					<div class="inputGroup fullWidth">
+						<textarea required="required"></textarea>
+						<label>Say Something</label>
+					</div>
+
+					<div class="inputGroup fullWidth">
+						<button>Send Message</button>
+					</div>
+
+				</form>
+
+			</div>
+		</main>
+
+	</section>
+
+	<section class="footerSection">
+		
+		<footer class="footerContents">
+			<a href="#" class="footerLogo">Hitesh</a>
+			<p class="copyRights">Created by <span>Hitesh Rana</span> | All rights reserved.</p>
+		</footer>
+
+	</section>
+
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
